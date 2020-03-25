@@ -4,10 +4,10 @@ void setup(){
 }
 int z = 0;
 int y = 0;
-int one = 1;
-int two = 2;
-int three = 3;
 void loop(){
+    int one = 1;
+    int two = 2;
+    int three = 3;
     int x = 0;
     while (digitalRead(3)==0) {
     x++;
