@@ -1,6 +1,10 @@
 void setup(){
     Serial.begin(9600);
     pinMode(2,INPUT_PULLUP);
+    pinMode(3, OUTPUT);
+    pinMode(4, OUTPUT);
+    pinMode(5, OUTPUT);
+
 }
 int y = 0;
 void loop(){
