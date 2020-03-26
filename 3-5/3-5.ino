@@ -13,7 +13,7 @@ void loop(){
         Serial.println(y);
     }
     }
-    
+    //ข้อ 5 เสดแล้ว
 
     
 }
