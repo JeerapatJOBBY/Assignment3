@@ -8,7 +8,7 @@ void loop(){
     while (digitalRead(2)==0) {
     x++;
     delay(50);
-    if (x == 1){
+    if (x <= 1){
         y++;
         Serial.println(y);
     }
